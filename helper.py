@@ -1,9 +1,7 @@
-tekst="header"
-lengte = len(tekst) + 4
-print()
-print(lengte * "*")
-print(f"* {tekst} *")
-print(lengte * "*")
-print()
-for c in "ijshoorntje":
-    print(c)
+def decoreer(tekst=""):
+    lengte = len(tekst) + 4
+    print()
+    print(lengte * "*")
+    print(f"* {tekst} *")
+    print(lengte * "*")
+    print()
