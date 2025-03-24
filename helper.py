@@ -5,3 +5,5 @@ print(lengte * "*")
 print(f"* {tekst} *")
 print(lengte * "*")
 print()
+for c in "ijshoorntje":
+    print(c)
